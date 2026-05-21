@@ -1,0 +1,34 @@
+# 秘密
+.env
+
+# 数据 / 日志（体积大，且本地生成）
+db/
+logs/
+
+# 本地工具配置（含机器路径、用户名）
+.claude/
+
+# 参数寻优运行日志
+research/param_search/out/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# Excel / CSV 输出（运行时生成）
+signal_stats.xlsx
+*.csv
+!requirements.txt
+
+# 回测产物
+resonance_backtest_result*.csv
+
+# PPT 作品集：保留 .pptx 和生成脚本，排除预览图与中间产物
+demo/slides/
+demo/*.pdf
+
+# IDE
+.idea/
+.vscode/
+*.swp
